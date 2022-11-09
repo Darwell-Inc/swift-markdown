@@ -23,7 +23,7 @@ let package = Package(
 		,
     ],
 	dependencies: [
-		.package(url: "https://github.com/ivalx1s/swift-cmark.git", .branch("ivalxis")),
+		.package(url: "https://github.com/ivalx1s/swift-cmark.git", .upToNextMinor(from: .init(0, 0, 221109))),
 	],
     targets: [
         .target(

@@ -34,6 +34,7 @@ let package = Package(
                 .product(name: "cmark-gfm-extensions", package: "swift-cmark"),
             ]
 		),
+		.target(name: "CAtomic"),
     ]
 )
 
